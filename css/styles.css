@@ -10,3 +10,6 @@ h{
   text-decoration: underline;
   color: blue;
 }
+.sidebar{
+  float: left;
+}
