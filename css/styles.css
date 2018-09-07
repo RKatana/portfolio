@@ -5,7 +5,9 @@
 }*/
 body{
   background-color: rgb(105, 240, 240);
+  margin:15%;
 }
+
 h1{
   text-decoration: underline;
   color: yellow;
@@ -17,12 +19,15 @@ h2{
 
 .sidebar{
   float: left;
-  /*position: fixed;*/
+  position: fixed;
   background-color: lime;
+  font-size:xx-large;
 }
 .sidebar a:hover{
   color: red;
   border-box: 5px;
+  font-size:xx-large;
+  padding-right:0px;
 }
 a:hover{
   color;yellow;
@@ -32,10 +37,16 @@ a:hover{
   float: right;
   padding-left: 5%;
   position: relative;
-  margin-right: 30%;
+  margin-right: 0;
   background-color:grey;
   text-align: center;
+  font-size: x-large;
 }
 li {
   list-style-type: none;
+}
+@media only screen and (max-width: 480px){
+  .float{
+    background-color: white;
+  }
 }
