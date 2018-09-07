@@ -2,27 +2,27 @@
   background-image: url("images.png");
   background-size:cover;
   /*background-repeat: no-repeat;*/
-}*/
+/*}*/*/
 body{
-  background-color: rgb(105, 240, 240);
+  background-color:grey;
   margin:15%;
 }
 
 h1{
   text-decoration: underline;
-  color: yellow;
+  color: lime;
 }
 h2{
   text-decoration: underline;
-  color:white;
+  color:blue;
 }
 
-.sidebar{
+/*.sidebar{
   float: left;
   /*position: relative;*/
   background-color: lime;
   font-size:xx-large;
-}
+}*/
 .sidebar a:hover{
   color: red;
   border-box: 5px;
@@ -31,6 +31,18 @@ h2{
 }
 a:hover{
   color;yellow;
+}
+
+nav>ul>li{
+  float: right;
+  display:inline-block;
+  padding: 25px;
+  position:relative;
+  left:70%
+  font-size: xx-large
+}
+nav>ul>li>a:hover{
+  color:red;
 }
 
 .float{
