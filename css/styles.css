@@ -19,7 +19,7 @@ h2{
 
 .sidebar{
   float: left;
-  position: relative;
+  /*position: relative;*/
   background-color: lime;
   font-size:xx-large;
 }
@@ -48,5 +48,6 @@ li {
 @media only screen and (max-width: 480px){
   .float{
     background-color: white;
+    text-align: center;
   }
 }
