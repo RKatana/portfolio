@@ -10,6 +10,7 @@ h{
   text-decoration: underline;
   color: blue;
 }
+
 .sidebar{
   float: left;
   position: fixed;
@@ -17,4 +18,11 @@ h{
 .sidebar a:hover{
   color: red;
   border-box: 5px;
+}
+a:hover{
+  color;yellow;
+}
+
+.float{
+  float: right;
 }
