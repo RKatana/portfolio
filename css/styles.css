@@ -12,4 +12,9 @@ h{
 }
 .sidebar{
   float: left;
+  position: fixed;
+}
+.sidebar a:hover{
+  color: red;
+  border-box: 5px;
 }
