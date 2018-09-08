@@ -14,6 +14,14 @@ body{
   justify-content: center;
   font-size: x-large;
 }
+.sidebar{
+  float:left;
+  padding-right: 20px;
+  position: sticky;
+  font-size: xx-large;
+  display: inline-block;
+}
+
 /**{
   background-image: url("images.png");
   background-size:cover;
