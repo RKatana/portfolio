@@ -1,3 +1,17 @@
+body{
+  color; white;
+  background-color: #43A042;
+  display: flex;
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-right: 50px solid yellow;
+  border-left: 50px solid yellow;
+}
+
+.container{
+  color: white;
+}
 /**{
   background-image: url("images.png");
   background-size:cover;
