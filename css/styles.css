@@ -11,6 +11,8 @@ body{
 
 .container{
   color: white;
+  justify-content: center;
+  font-size: x-large;
 }
 /**{
   background-image: url("images.png");
